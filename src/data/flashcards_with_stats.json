@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "question": "Co to jest React?",
+    "answer": "Biblioteka języka JavaScript służąca do budowania interfejsów użytkownika.",
+    "questionImage": "",
+    "answerImage": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    "stats": {
+      "wiem": 1,
+      "nieWiem": 0
+    }
+  },
+  {
+    "id": 2,
+    "question": "Jak przekazujemy dane z komponentu nadrzędnego do podrzędnego?",
+    "answer": "Za pomocą tzw. propsów (właściwości).",
+    "questionImage": "https://dummyimage.com/200x100/000/fff&text=Parent+-%3E+Child",
+    "answerImage": "",
+    "stats": {
+      "wiem": 1,
+      "nieWiem": 0
+    }
+  },
+  {
+    "id": 3,
+    "question": "Jaki hook służy do zarządzania stanem w komponencie funkcyjnym?",
+    "answer": "Hook useState.",
+    "questionImage": "",
+    "answerImage": "",
+    "stats": {
+      "wiem": 1,
+      "nieWiem": 0
+    }
+  }
+]

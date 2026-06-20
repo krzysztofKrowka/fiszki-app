@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "question": "Niech X będzie zbiorem liczb naturalnych dodatnich, a Y zbiorem odwrotności liczb naturalnych dodatnich, parzystych. Wtedy zbiory uporządkowane (X, ≤) oraz (Y, ≥) są izomorficzne.",
+    "answer": true
+  },
+  {
+    "id": 2,
+    "question": "Drzewem nazywamy graf spójny bez cykli. Liczba nieizomorficznych drzew o pięciu wierzchołkach wynosi 3.",
+    "answer": true
+  },
+  {
+    "id": 3,
+    "question": "Każdy zbiór częściowo uporządkowany jest izomorficzny z pewnym podzbiorem zbioru liczb naturalnych uporządkowanym przez relację podzielności.",
+    "answer": false
+  },
+  {
+    "id": 4,
+    "question": "Niech X będzie zbiorem częściowo uporządkowanym, posiadającym co najmniej 3 elementy. Wtedy w X musi istnieć łańcuch co najmniej dwuelementowy.",
+    "answer": false
+  },
+  {
+    "id": 5,
+    "question": "Zbiór {x ∈ {0, 1, 2, ...} : x² + 4x + 4 ≤ 0} jest równoliczny ze zbiorem liczb naturalnych.",
+    "answer": false
+  },
+  {
+    "id": 6,
+    "question": "Określmy na R² relację równoważności R w sposób następujący: (x1, y1) R (x2, y2) ⇔ x1² + y1² = x2² + y2². Klasami abstrakcji są zbiory, których geometryczną reprezentacją są okręgi o nieujemnym promieniu mające środek w punkcie (0,0).",
+    "answer": true
+  },
+  {
+    "id": 7,
+    "question": "Niech X będzie zbiorem mającym co najmniej trzy elementy. Liniowy porządek (X, ≤) nazywamy gęstym, jeśli dla każdych x, y ∈ X takich, że x < y, istnieje z ∈ X spełniające x < z < y.",
+    "answer": true
+  },
+  {
+    "id": 8,
+    "question": "Jeśli X jest zbiorem n-elementowym, a Y zbiorem m-elementowym (m > 0), to liczba wszystkich funkcji f: X → Y jest równa m^n.",
+    "answer": true
+  },
+  {
+    "id": 9,
+    "question": "Jeśli X i Y są zbiorami n-elementowymi, to liczba bijekcji f: X → Y jest równa n!.",
+    "answer": true
+  },
+  {
+    "id": 10,
+    "question": "Istnieje nieskończony zbiór częściowo uporządkowany, który posiada zarówno element największy jak i najmniejszy.",
+    "answer": true
+  },
+  {
+    "id": 11,
+    "question": "Niech B będzie zbiorem formuł logicznych. Relacja R na B, gdzie φ R ψ zachodzi wtedy i tylko wtedy, gdy (φ ⇒ ψ) jest tautologią, jest relacją liniowego porządku.",
+    "answer": false
+  },
+  {
+    "id": 12,
+    "question": "Grupa symetrii danej figury to zbiór przekształceń zostawiających ją bez zmian (z operacją składania). Zgodnie z tym, grupa symetrii pięciokąta foremnego jest pięcioelementowa.",
+    "answer": false
+  },
+  {
+    "id": 13,
+    "question": "Dla każdej relacji równoważności zdefiniowanej na zbiorze nieskończonym istnieją co najmniej dwie klasy równoważności.",
+    "answer": false
+  },
+  {
+    "id": 14,
+    "question": "Liczba Stirlinga II rodzaju: {5, 2} = 14.",
+    "answer": false
+  },
+  {
+    "id": 15,
+    "question": "Liczba Stirlinga II rodzaju: {4, 2} = 12.",
+    "answer": false
+  },
+  {
+    "id": 16,
+    "question": "Liczba Stirlinga I rodzaju (nieznakowana) dla [n, n-2] jest równa liczbie Stirlinga II rodzaju {n, n-2}.",
+    "answer": false
+  },
+  {
+    "id": 17,
+    "question": "Liczba podziałów n-elementowego zbioru na (n-1) niepustych bloków wyraża się wzorem: {n, n-1} = (n po 2).",
+    "answer": true
+  },
+  {
+    "id": 18,
+    "question": "Tożsamość Newtona: (n po k) = (n/k) * ((n-1) po (k-1)).",
+    "answer": true
+  },
+  {
+    "id": 19,
+    "question": "Spójność krawędziowa grafu jest zawsze większa od jego spójności węzłowej.",
+    "answer": false
+  },
+  {
+    "id": 20,
+    "question": "Schemat logiczny oparty na przesłankach (p ⇒ q) oraz (¬q), prowadzący do wniosku (¬p), jest poprawną regułą wnioskowania.",
+    "answer": true
+  },
+  {
+    "id": 21,
+    "question": "Macierze przyległości grafów G1 i G2 są postaci: SG1 = [[0,1,0,0], [1,0,1,1], [0,1,0,1], [0,1,1,0]] oraz SG2 = [[0,0,1,1], [0,0,1,0], [1,1,0,1], [1,0,1,0]]. Grafy te są izomorficzne.",
+    "answer": true
+  },
+  {
+    "id": 22,
+    "question": "Każdy skończony zbiór częściowo uporządkowany jest izomorficzny z pewnym podzbiorem zbioru liczb naturalnych, uporządkowanych przy pomocy relacji podzielności.",
+    "answer": true
+  },
+  {
+    "id": 23,
+    "question": "Graf G zadany macierzą przyległości SG = [[0,1,1,0], [1,0,1,1], [1,1,0,1], [0,1,1,0]] jest grafem eulerowskim.",
+    "answer": false
+  },
+  {
+    "id": 24,
+    "question": "(∀y ∃x: ϕ(x, y)) ⇒ (∃x ∀y: ϕ(x, y)).",
+    "answer": false
+  },
+  {
+    "id": 25,
+    "question": "(∃x: (ϕ(x) ⇒ ψ(x))) ⇒ ((∃x: ϕ(x)) ⇒ (∃x: ψ(x))).",
+    "answer": false
+  },
+  {
+    "id": 26,
+    "question": "(∀x: (ϕ(x) ⇒ ψ(x))) ⇒ ((∃x: ϕ(x)) ⇒ (∃x: ψ(x))).",
+    "answer": true
+  },
+  {
+    "id": 27,
+    "question": "Istnieje zbiór wszystkich zbiorów.",
+    "answer": false
+  },
+  {
+    "id": 28,
+    "question": "Złożenie injekcji f: X → Y i surjekcji g: Y → Z jest bijekcją z X na Z.",
+    "answer": false
+  },
+  {
+    "id": 29,
+    "question": "Złożenie surjekcji f: X → Y i injekcji g: Y → Z jest bijekcją z X na Z.",
+    "answer": false
+  },
+  {
+    "id": 30,
+    "question": "Niech G(z) będzie funkcją tworzącą ciągu g_n, natomiast H(z) niech będzie funkcją tworzącą ciągu, którego n-ty wyraz to n * g_n. Wtedy z * G'(z) = H(z).",
+    "answer": true
+  },
+  {
+    "id": 31,
+    "question": "Każdy zbiór może być uporządkowany w sposób gęsty.",
+    "answer": false
+  },
+  {
+    "id": 32,
+    "question": "Każdy liniowy porządek na zbiorze nieskończonym musi być porządkiem gęstym.",
+    "answer": false
+  },
+  {
+    "id": 33,
+    "question": "Każdy niepusty zbiór jest równoliczny z pewną rodziną swoich podzbiorów.",
+    "answer": true
+  },
+  {
+    "id": 34,
+    "question": "Niech f będzie funkcją. Przeciwobraz obrazu podzbioru B dziedziny jest zawsze równy zbiorowi B (tj. f⁻¹(f(B)) = B).",
+    "answer": false
+  },
+  {
+    "id": 35,
+    "question": "Niech f będzie funkcją. Obraz przeciwobrazu podzbioru A przeciwdziedziny jest zawsze równy zbiorowi A (tj. f(f⁻¹(A)) = A).",
+    "answer": false
+  },
+  {
+    "id": 36,
+    "question": "Jeśli dla każdego podzbioru A przeciwdziedziny zachodzi f(f⁻¹(A)) = A, to f jest bijekcją.",
+    "answer": false
+  },
+  {
+    "id": 37,
+    "question": "Jeśli funkcja f jest surjekcją, to obraz przeciwobrazu dowolnego podzbioru B przeciwdziedziny równa się B (f(f⁻¹(B)) = B).",
+    "answer": true
+  },
+  {
+    "id": 38,
+    "question": "Relacja mniejszości arytmetycznej (<) dobrze porządkuje zbiór liczb naturalnych.",
+    "answer": false
+  },
+  {
+    "id": 39,
+    "question": "W zbiorze dobrze uporządkowanym istnieje element najmniejszy.",
+    "answer": true
+  },
+  {
+    "id": 40,
+    "question": "Niech (P_6, ◦) oznacza grupę permutacji sześcioelementowych ze składaniem, natomiast (Z_6, +) grupę z dodawaniem modulo sześć. Powyższe grupy są izomorficzne.",
+    "answer": false
+  },
+  {
+    "id": 41,
+    "question": "Jeśli relacja równoważności jest określona na zbiorze nieskończonym, to liczba klas równoważności tej relacji jest nieskończona.",
+    "answer": false
+  },
+  {
+    "id": 42,
+    "question": "Schemat logiczny oparty na przesłankach (p ⇒ q) oraz (q ⇒ p), prowadzący do wniosku (p ⇔ q) jest regułą wnioskowania.",
+    "answer": true
+  },
+  {
+    "id": 43,
+    "question": "Istnieje zbiór częściowo uporządkowany izomorficzny z pewnym swoim podzbiorem właściwym.",
+    "answer": true
+  },
+  {
+    "id": 44,
+    "question": "Dla permutacji σ = (1 2 3 4 5 6 7 8 \\ 2 6 1 3 7 5 8 4) zachodzi orb_σ(3) = {4, 6, 8, 1, 2, 3, 7, 5}.",
+    "answer": true
+  },
+
+  {
+    "id": 45,
+    "question": "Liczba Stirlinga II rodzaju: {6, 3} = 91.",
+    "answer": false
+  },
+  {
+    "id": 46,
+    "question": "Liczba Stirlinga I rodzaju (nieznakowana): [5, 3] = 36.",
+    "answer": false
+  },
+  {
+    "id": 47,
+    "question": "Liczba Stirlinga I rodzaju [n, n-1] jest równa liczbie Stirlinga II rodzaju {n, n-1}.",
+    "answer": true
+  },
+  {
+    "id": 48,
+    "question": "Tożsamość: k³ = (k po 3) + 4((k+1) po 3) + ((k+2) po 3), dla k ∈ ℕ.",
+    "answer": true
+  },
+  {
+    "id": 49,
+    "question": "Tożsamość Vandermonde'a: ((m+n) po k) = Σ_{t=0}^{k} ((m po t) * (n po (k-t))), dla m, n, k ∈ ℕ.",
+    "answer": true
+  },
+  {
+    "id": 50,
+    "question": "Zbiór {1, 2, 3, 12, 18, 216}, uporządkowany częściowo przez relację podzielności, jest kratą.",
+    "answer": false
+  },
+  {
+    "id": 51,
+    "question": "Schemat logiczny oparty na przesłance ((¬(α ⇒ β)) ⇒ (γ ∧ ¬γ)), prowadzący do wniosku (α ⇒ β) (gdzie ¬ oznacza operator negacji), jest regułą wnioskowania.",
+    "answer": true
+  },
+  {
+    "id": 52,
+    "question": "Funkcja f: ℕ × ℕ → ℕ⁺, dana wzorem f(n, k) = 2ⁿ * (2k + 1) jest iniekcją, ale nie jest suriekcją.",
+    "answer": false
+  },
+  {
+    "id": 53,
+    "question": "Funkcja tworząca ciągu h(z) ciągu a_n = 3n + 4 jest dana wzorem h(z) = (3-z)/(1-z)². Wskazówka: Funkcją tworzącą ciągu b_n = n + 1 jest g(z) = 1/(1-z)².",
+    "answer": false
+  },
+  {
+    "id": 54,
+    "question": "Istnieje nieskończony zbiór częściowo uporządkowany, który posiada dokładnie jeden element maksymalny i nie posiada elementu największego.",
+    "answer": true
+  },
+  {
+    "id": 55,
+    "question": "Jeśli w skończonym zbiorze częściowo uporządkowanym istnieje dokładnie jeden element minimalny, to jest on elementem najmniejszym.",
+    "answer": true
+  },
+  {
+    "id": 56,
+    "question": "Ilość liczb ze zbioru {1, 2, 3, ..., 250} podzielnych co najmniej przez jedną z liczb: 2, 3, 5, 7 jest równa 193. Wskazówka: skorzystaj z zasady włącz-wyłącz.",
+    "answer": true
+  },
+  {
+    "id": 57,
+    "question": "W grafie spójnym posiadającym n wierzchołków liczba krawędzi m spełnia nierówności n - 1 ≤ m ≤ n(n-1)/2.",
+    "answer": true
+  },
+  {
+    "id": 58,
+    "question": "Żaden graf dwudzielny nie jest drzewem.",
+    "answer": false
+  },
+  {
+    "id": 59,
+    "question": "Dla grafu spójnego G = (V, E) każde drzewo T = (V, E₁) takie, że E₁ ⊂ E nazywamy drzewem rozpinającym. Graf pełny G₄ ma trzy, z dokładnością do izomorfizmu, drzewa rozpinające.",
+    "answer": false
+  },
+  {
+    "id": 60,
+    "question": "(∃x: (ψ ⇒ ϕ(x))) ⇔ (ψ ⇒ ∃x: ϕ(x)).",
+    "answer": true
+  },
+  {
+    "id": 61,
+    "question": "Każdy liniowy porządek na zbiorze przeliczalnym musi być porządkiem dobrym.",
+    "answer": false
+  },
+  {
+    "id": 62,
+    "question": "Istnieje 2^((n²+n)/2) różnych relacji symetrycznych na zbiorze n-elementowym.",
+    "answer": true
+  },
+  {
+    "id": 63,
+    "question": "Jeśli relacje R₁ oraz R₂ są relacjami równoważności określonymi na zbiorze X, to relacja R₁ ∪ R₂ jest relacją równoważności na zbiorze X.",
+    "answer": false
+  },
+  {
+    "id": 64,
+    "question": "Jeśli w zbiorze liniowo uporządkowanym każdy element posiada następnik, to zbiór ten jest dobrze uporządkowany.",
+    "answer": false
+  }
+]

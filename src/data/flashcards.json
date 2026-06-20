@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "1. Zdefiniuj σ-ciało i podaj aksjomatyczną definicję prawdopodobieństwa",
+    "answer": "σ-ciało to rodzina podzbiorów przestrzeni Ω, zawierająca zbiór pusty (Ø) i zamknięta na przeliczalne sumy (∪) oraz dopełnienia. Prawdopodobieństwo P to funkcja spełniająca: 1) P(Ω)=1, 2) P(A) ≥ 0, 3) dla przeliczalnej liczby rozłącznych zdarzeń P(∪A_i) = ΣP(A_i).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 2,
+    "question": "2. Podaj podstawowe własności prawdopodobieństwa (wymień przynajmniej 5)",
+    "answer": "1) P(Ø) = 0. \n2) P(A') = 1 - P(A). \n3) Jeśli A ⊆ B, to P(A) ≤ P(B). \n4) P(A ∪ B) = P(A) + P(B) - P(A ∩ B). \n5) 0 ≤ P(A) ≤ 1.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 3,
+    "question": "3. Podaj klasyczną i geometryczną definicję prawdopodobieństwa",
+    "answer": "Klasyczna: P(A) = |A| / |Ω| (stosunek liczby zdarzeń sprzyjających do wszystkich, dla równoprawdopodobnych wyników). \nGeometryczna: P(A) = miara(A) / miara(Ω), gdzie miara to np. długość, pole powierzchni lub objętość.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 4,
+    "question": "4. Wypowiedz twierdzenie o subaddytywności prawdopodobieństwa, oraz wzór włączeń i wyłączeń",
+    "answer": "Subaddytywność: Prawdopodobieństwo sumy zdarzeń jest nie większe niż suma ich prawdopodobieństw: P(∪A_i) ≤ ΣP(A_i).\nWzór włączeń i wyłączeń: P(A ∪ B) = P(A) + P(B) - P(A ∩ B) (oraz jego uogólnienie na n zdarzeń ze zmiennym znakiem).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 5,
+    "question": "5. Wypowiedz twierdzenie o ciągłości",
+    "answer": "Jeśli ciąg zdarzeń A_n jest wstępujący (każde kolejne zawiera poprzednie), to P(∪A_n) = lim P(A_n). \nJeśli ciąg jest zstępujący (każde kolejne zawiera się w poprzednim), to P(∩A_n) = lim P(A_n).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 6,
+    "question": "6. Podaj definicję prawdopodobieństwa warunkowego, oraz podaj wzór łańcuchowy",
+    "answer": "Warunkowe (A pod warunkiem B): P(A|B) = P(A ∩ B) / P(B), przy założeniu P(B) > 0.",
+    "questionImage": "",
+    "answerImage": "/6.png"
+  },
+  {
+    "id": 7,
+    "question": "7. Podaj definicję rozbicia przestrzeni oraz wzór na prawdopodobieństwo całkowite",
+    "answer": "Rozbicie przestrzeni to układ parami rozłącznych zdarzeń H_i, których suma daje całą przestrzeń Ω (i P(H_i)>0). \nPrawdopodobieństwo całkowite: P(A) = Σ [P(A|H_i) * P(H_i)].",
+    "questionImage": "",
+    "answerImage": "/7.png"
+  },
+  {
+    "id": 8,
+    "question": "8. Wypowiedz twierdzenie Bayesa",
+    "answer": "Twierdzenie pozwala odwrócić prawdopodobieństwo warunkowe. \nP(H_k|A) = [P(A|H_k) * P(H_k)] / P(A), gdzie P(A) obliczamy ze wzoru na prawdopodobieństwo całkowite z wykorzystaniem hipotez H_i.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 9,
+    "question": "9. Podaj definicję niezależności dwóch zdarzeń oraz niezależności dowolnej liczby zdarzeń",
+    "answer": "Dwa zdarzenia są niezależne, jeśli P(A ∩ B) = P(A) * P(B).\nRodzina zdarzeń jest niezależna, jeśli dla dowolnego skończonego podzbioru tych zdarzeń, prawdopodobieństwo ich części wspólnej (przekroju) równe jest iloczynowi ich prawdopodobieństw.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 10,
+    "question": "10. Podaj równoważne warunki na niezależność zdarzeń",
+    "answer": "A i B są niezależne, wtedy i tylko wtedy, gdy: \n1) P(A|B) = P(A) (dla P(B)>0) \n2) P(B|A) = P(B) (dla P(A)>0) \n3) Zdarzenia A i B' (dopełnienie) są niezależne.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 11,
+    "question": "11. Omów schemat Bernoulliego",
+    "answer": "Ciąg n niezależnych doświadczeń, z których każde kończy się 'sukcesem' (z prawdop. p) lub 'porażką' (q = 1-p). Prawdopodobieństwo uzyskania dokładnie k sukcesów wynosi: P_n(k) = (n po k) * p^k * q^(n-k).",
+    "questionImage": "",
+    "answerImage": "/11.png"
+  },
+  {
+    "id": 12,
+    "question": "12. Wypowiedz lemat Borela-Cantelliego",
+    "answer": "1) Jeśli suma prawdopodobieństw zdarzeń ΣP(A_n) jest zbieżna (<∞), to z prawdop. 1 zajdzie tylko skończenie wiele z nich.\n2) Jeśli zdarzenia są niezależne i suma ΣP(A_n) jest rozbieżna (=∞), to z prawdop. 1 zajdzie nieskończenie wiele z nich.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 13,
+    "question": "13. Podaj definicję zmiennej losowej, oraz rozkładu zmiennej losowej",
+    "answer": "Zmienna losowa X to funkcja mierzalna przypisująca zdarzeniom elementarnym z Ω liczby rzeczywiste (X: Ω -> R).\nRozkład zmiennej losowej to miara probabilistyczna określająca, z jakim prawdopodobieństwem zmienna X przyjmuje wartości z danych zbiorów (P(X ∈ B)).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 14,
+    "question": "14. Podaj definicję zmiennej losowej dyskretnej, oraz zmiennej losowej ciągłej",
+    "answer": "Dyskretna (skokowa): Przyjmuje tylko skończoną lub przeliczalną liczbę wartości, a jej rozkład jest w pełni opisany przez prawdopodobieństwa P(X = x_i).\nCiągła: Istnieje dla niej nieujemna funkcja f(x) (gęstość), taka że prawdopodobieństwo P(X ∈ A) wyraża się jako całka z f(x) po zbiorze A.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 15,
+    "question": "15. Podaj definicję dystrybuanty oraz jej własności",
+    "answer": "Dystrybuanta F(x) = P(X ≤ x). \nWłasności: \n1) Jest niemalejąca. \n2) Prawostronnie ciągła. \n3) Granica w -∞ wynosi 0. \n4) Granica w +∞ wynosi 1.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 16,
+    "question": "16. Wypowiedz twierdzenie o wyznaczaniu g˛estosci zmiennej losowej ´ Y = aX + b na podstawie g˛estosci ci ˛agłej ´zmiennej losowej X",
+    "answer": "Jeśli X ma gęstość ciągłą f_X(x) i Y = aX + b (gdzie a ≠ 0), to gęstość zmiennej Y wyraża się wzorem: \nf_Y(y) = (1/|a|) * f_X((y - b)/a).",
+    "questionImage": "",
+    "answerImage": "/16.png"
+  },
+  {
+    "id": 17,
+    "question": "17. Podaj definicję wartości oczekiwanej dla zmiennej losowej dyskretnej, oraz ciągłej",
+    "answer": "Dyskretna: E(X) = Σ (x_i * P(X = x_i)) \nCiągła: E(X) = ∫ (x * f(x)) dx \n(Całkowanie od -∞ do +∞, o ile szereg/całka są zbieżne bezwzględnie).",
+    "questionImage": "",
+    "answerImage": "/17.png"
+  },
+  {
+    "id": 18,
+    "question": "18. Podaj własności wartości oczekiwanej",
+    "answer": "1) Liniowość: E(aX + bY) = a*E(X) + b*E(Y). \n2) E(c) = c (stała). \n3) Jeśli X ≥ 0 p.n., to E(X) ≥ 0. \n4) Jeśli X i Y są niezależne, to E(X*Y) = E(X) * E(Y).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 19,
+    "question": "19. Podaj definicję wariancji i wymień jej własności",
+    "answer": "Wariancja to miara rozproszenia: Var(X) = E[(X - E(X))^2] = E(X^2) - (E(X))^2. \nWłasności: \n1) Var(X) ≥ 0. \n2) Var(aX + b) = a^2 * Var(X). \n3) Dla niezależnych: Var(X + Y) = Var(X) + Var(Y).",
+    "questionImage": "",
+    "answerImage": "/19.png"
+  },
+  {
+    "id": 20,
+    "question": "20. Podaj definicję kowariancji, oraz współczynnika korelacji",
+    "answer": "Kowariancja: Cov(X,Y) = E[(X - E(X))(Y - E(Y))] = E(XY) - E(X)E(Y). \nWspółczynnik korelacji (Pearsona): ρ(X,Y) = Cov(X,Y) / (σ_X * σ_Y), gdzie σ to odchylenie standardowe. Przyjmuje wartości z przedziału [-1, 1].",
+    "questionImage": "",
+    "answerImage": "/20.png"
+  },
+  {
+    "id": 21,
+    "question": "21. Podaj definicję wielowymiarowej zmiennej losowej oraz jej rozkładów brzegowych",
+    "answer": "Wielowymiarowa (wektor losowy) (X_1, ..., X_n) to wektor złożony ze zmiennych losowych zdefiniowanych na wspólnej przestrzeni Ω. \nRozkłady brzegowe to po prostu rozkłady pojedynczych składowych wektora, ignorujące pozostałe wymiary.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 22,
+    "question": "22. Podaj definicję wartości oczekiwanej, oraz macierzy kowariancji dla wielowymiarowej z.l.",
+    "answer": "Wartość oczekiwana wektora to wektor wartości oczekiwanych składowych: [E(X_1), ..., E(X_n)]^T. \nMacierz kowariancji Σ to macierz kwadratowa, gdzie na przecięciu i-tego wiersza i j-tej kolumny znajduje się Cov(X_i, X_j). Na przekątnej są wariancje składowych.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 23,
+    "question": "23. Podaj warunek równoważny na niezależność rozkładów dyskretnych, oraz ciągłych",
+    "answer": "Dyskretne: Łączne prawdopodobieństwo to iloczyn brzegowych: P(X=x, Y=y) = P(X=x)*P(Y=y). \nCiągłe: Łączna gęstość to iloczyn gęstości brzegowych: f(x,y) = f_X(x)*f_Y(y).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 24,
+    "question": "24. Wypowiedz twierdzenie o niezależności funkcji od niezależnych zmiennych losowych",
+    "answer": "Jeśli zmienne losowe X i Y są niezależne, a g(x) i h(y) są (borelowsko) mierzalnymi funkcjami rzeczywistymi, to zmienne losowe zdefiniowane jako g(X) oraz h(Y) również są niezależne.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 25,
+    "question": "25. Wypowiedz twierdzenie o w.oczekiwanej iloczynu i wariancji sumy niezależnych z.l.",
+    "answer": "Jeśli zmienne losowe X i Y są niezależne, to: \n1) E(X*Y) = E(X) * E(Y) \n2) Var(X + Y) = Var(X) + Var(Y).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 26,
+    "question": "26. Podaj definicję splotu zmiennych losowych dyskretnych, oraz ciągłych",
+    "answer": "Splot pozwala wyznaczyć rozkład sumy (Z = X + Y) niezależnych z.l. \nDyskretne: P(Z=z) = Σ P(X=x)*P(Y=z-x). \nCiągłe (gęstość): f_Z(z) = ∫ f_X(x)*f_Y(z-x) dx.",
+    "questionImage": "",
+    "answerImage": "/26.png"
+  },
+  {
+    "id": 27,
+    "question": "27. Podaj definicje warunkowej wartosci oczekiwanej zmiennej losowej, oraz warunkowej wartośsci oczekiwanej zmiennej losowej Y pod warunkiem zmiennej losowej X",
+    "answer": "E(X|Y) to nowa zmienna losowa (zależna od wyników zmiennej Y), która w sensie błędu średniokwadratowego stanowi najlepsze przybliżenie zmiennej X, bazując jedynie na wiedzy o Y.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 28,
+    "question": "28. Wymień własności warunkowej wartości oczekiwanej",
+    "answer": "1) Liniowość: E(aX + bZ | Y) = a*E(X|Y) + b*E(Z|Y). \n2) Jeśli X i Y są niezależne: E(X|Y) = E(X). \n3) Jeśli X jest funkcją od Y: E(X|Y) = X. \n4) Prawo wieży: E( E(X|Y) ) = E(X).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 29,
+    "question": "29. Wypowiedz nierówność Czebyszewa i nierówność Markowa",
+    "answer": "Markowa: Dla X ≥ 0 i a > 0: P(X ≥ a) ≤ E(X) / a. \nCzebyszewa: P(|X - E(X)| ≥ a) ≤ Var(X) / a^2. \n(Pozwalają oszacować prawdopodobieństwo odchylenia zmiennej od oczekiwań, znając mało informacji o rozkładzie).",
+    "questionImage": "",
+    "answerImage": "/29.png"
+  },
+  {
+    "id": 30,
+    "question": "30. Wypowiedz nierówność Czebyszewa-Bienaymé i wykładniczą wartość oczekiwaną",
+    "answer": "Nierówność Czebyszewa-Bienaymé to standardowa nierówność Czebyszewa dla odchyleń od średniej. \nWykładnicza nierówność (Chernoffa): P(X ≥ a) ≤ e^(-ta) * E(e^(tX)) dla dowolnego t > 0.",
+    "questionImage": "",
+    "answerImage": "/30.png"
+  },
+  {
+    "id": 31,
+    "question": "31. Wypowiedz Prawo Wielkich Liczb Bernoulliego",
+    "answer": "Mówi, że przy bardzo dużej liczbie powtórzeń doświadczenia w schemacie Bernoulliego (np. rzut monetą), empiryczna częstość sukcesów (k/n) dąży według prawdopodobieństwa do teoretycznego prawdopodobieństwa sukcesu p.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 32,
+    "question": "32. Wypowiedz Słabe Prawo Wielkich Liczb (SPWL)",
+    "answer": "Dla ciągu niezależnych zmiennych losowych o tej samej wartości oczekiwanej (μ) i skończonej wariancji, średnia arytmetyczna próby zbiega według prawdopodobieństwa do μ. Prawdopodobieństwo dużego odchylenia średniej od μ dąży do zera, gdy n dąży do nieskończoności.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 33,
+    "question": "33. Wypowiedz twierdzenie Kołmogorowa",
+    "answer": "Dotyczy tzw. Mocnego Prawa Wielkich Liczb (lub zbieżności szeregów). Jeśli ciąg niezależnych z.l. ma skończone wariancje i Σ [Var(X_n) / n^2] < ∞, to szereg średnich zbiega prawie na pewno.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 34,
+    "question": "34. Wypowiedz Mocne Prawo Wielkich Liczb Kołmogorowa (MPWL)",
+    "answer": "Jeśli mamy ciąg niezależnych z.l. o tym samym rozkładzie i skończonej wartości oczekiwanej (μ), to średnia z n prób zbiega do μ 'prawie na pewno' (z prawdopodobieństwem 1). Jest to mocniejszy warunek niż SPWL.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 35,
+    "question": "35. Wypowiedz twierdzenie Poissona",
+    "answer": "(Twierdzenie o rzadkich zdarzeniach). Jeśli w schemacie Bernoulliego liczba prób n rośnie (n -> ∞), a prawdopodobieństwo sukcesu p maleje (p -> 0), tak że n*p -> λ (λ > 0), to rozkład dwumianowy dąży do rozkładu Poissona z parametrem λ.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 36,
+    "question": "36. Wypowiedz Centralne Twierdzenie Graniczne (CTG)",
+    "answer": "Suma (i średnia) odpowiednio dużej liczby niezależnych zmiennych losowych o tym samym rozkładzie i skończonej wariancji zachowuje się w przybliżeniu jak rozkład normalny N(0,1) po dokonaniu standardyzacji (odjęciu średniej i podzieleniu przez odchylenie).",
+    "questionImage": "",
+    "answerImage": "/36.png"
+  },
+  {
+    "id": 37,
+    "question": "37. Wypowiedz twierdzenie de Moivre’a-Laplace’a",
+    "answer": "Jest to szczególny przypadek CTG dla schematu Bernoulliego. Standaryzowana liczba sukcesów S_n (czyli (S_n - np) / √(npq)) dla dużych n dąży do rozkładu normalnego N(0,1). Ułatwia przybliżanie rozkładu dwumianowego.",
+    "questionImage": "",
+    "answerImage": "/37.png"
+  },
+  {
+    "id": 38,
+    "question": "38. Podaj definicję statystycznej populacji, prostej próby losowej, oraz statystyki",
+    "answer": "Populacja: zbiór elementów o wspólnej mierzonej cesze.\nProsta próba losowa: ciąg n niezależnych z.l. o identycznym rozkładzie (jak badana populacja).\nStatystyka: dowolna mierzalna funkcja od próby (T(X_1, ..., X_n)), która nie zależy od nieznanych parametrów.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 39,
+    "question": "39. Podaj definicję średniej w prostej próbie losowej, oraz częstotliwości występowania",
+    "answer": "Średnia z próby: arytmetyczna średnia uzyskanych pomiarów X_sr = (1/n) * Σ(X_i). \nCzęstotliwość występowania (wskaźnik struktury): p_daszek = k/n, gdzie k to liczba wystąpień danej cechy w próbie n-elementowej.",
+    "questionImage": "",
+    "answerImage": "/39.png"
+  },
+  {
+    "id": 40,
+    "question": "40. Podaj definicję estymatora, oraz obciążenia estymatora i estymatora nieobciążonego",
+    "answer": "Estymator: statystyka używana do szacowania wartości nieznanego parametru (θ) w populacji. \nObciążenie: różnica między wartością oczekiwaną estymatora a prawdziwym parametrem. \nNieobciążony: jego wartość oczekiwana E(estymator) jest równa szacowanemu parametrowi (θ).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 41,
+    "question": "41. Podaj definicję estymatora nieobciążonego o minimalnej wariancji",
+    "answer": "Estymator nazywany ENMW (ang. MVUE). W klasie wszystkich możliwych estymatorów, które są nieobciążone dla danego parametru, jest to ten, który posiada najmniejszą wariancję (najmniejszy 'rozrzut' wyników).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 42,
+    "question": "42. Podaj definicję błędu średniokwadratowego, e. dopuszczalnego i błędu standardowego",
+    "answer": "Błąd średniokwadratowy (MSE) = Wariancja estymatora + (Obciążenie)^2. Oznacza miarę jakości.\nEstymator dopuszczalny to taki, dla którego nie ma lepszego w sensie błędu (dominującego). \nBłąd standardowy: odchylenie standardowe estymatora (pierwiastek z jego wariancji).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 43,
+    "question": "43. Opisz procedurę testowania hipotez statystycznych",
+    "answer": "1) Sformułuj hipotezę zerową (H_0) i alternatywną (H_1). \n2) Wybierz odpowiednią statystykę testową.\n3) Ustal poziom istotności α. \n4) Wyznacz obszar krytyczny. \n5) Oblicz statystykę dla danych z próby i podejmij decyzję (odrzuć H_0 lub brak podstaw do odrzucenia).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 44,
+    "question": "44. Podaj definicję błędu I i II rodzaju, oraz poziomu istotności testu",
+    "answer": "Błąd I rodzaju: Odrzucenie prawdziwej hipotezy zerowej H_0 (tzw. 'fałszywy alarm'). \nBłąd II rodzaju: Przyjęcie (nieodrzucenie) fałszywej hipotezy zerowej. \nPoziom istotności (α): Akceptowalne, maksymalne ryzyko popełnienia błędu I rodzaju.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 45,
+    "question": "45. Podaj definicję mocy testu i p-wartości testu",
+    "answer": "Moc testu (1 - β): prawdopodobieństwo słusznego odrzucenia fałszywej hipotezy H_0 (zdolność testu do 'wykrycia' zjawiska). \np-value (p-wartość): najmniejszy poziom istotności, przy którym odrzucilibyśmy H_0. Jeśli p-value < α, odrzucamy H_0.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 46,
+    "question": "46. Podaj definicję generatora liczb pseudolosowych z rozkładu jednostajnego na [0,1]",
+    "answer": "Jest to algorytm deterministyczny (matematyczny wzór, np. LCG, Mersenne Twister), który produkuje ciąg liczb, których rozkład i własności statystyczne imitują prawdziwie losowe próby ciągłego rozkładu jednostajnego U(0,1).",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 47,
+    "question": "47. Omów metodę przekształcenia kwantylowego (odwracania dystrybuanty) do generowania liczb  pseudolosowych z ustalonego rozkładu",
+    "answer": "Metoda pozwala wylosować zmienną X z dowolnego rozkładu. Działanie: \n1) Wygeneruj u z rozkładu jednostajnego U(0,1).\n2) Oblicz x z użyciem funkcji odwrotnej do pożądanej dystrybuanty F: x = F^(-1)(u). \nZmienna X = F^(-1)(U) ma dystrybuantę F.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 48,
+    "question": "48. Omów metodę eliminacji (akceptacji-odrzucenia) do generowania liczb pseudolosowych z ustalonego rozkładu",
+    "answer": "Polega na generowaniu próbek z innego, łatwiejszego 'rozkładu proponowanego', a następnie losowym ich akceptowaniu lub odrzucaniu, z prawdopodobieństwem proporcjonalnym do stosunku docelowej gęstości prawdopodobieństwa do gęstości proponowanej.",
+    "questionImage": "",
+    "answerImage": ""
+  },
+  {
+    "id": 49,
+    "question": "49. Podaj definicję estymatora otrzymanego metodą Monte Carlo",
+    "answer": "To metoda szacowania wartości analitycznych (np. całek czy wartości oczekiwanych) poprzez uśrednianie dużej ilości losowych prób numerycznych. Np. całkę ∫ f(x)dx można przybliżyć średnią arytmetyczną z wylosowanych punktów (1/N * Σ f(X_i)).",
+    "questionImage": "",
+    "answerImage": "/49.png"
+  },
+  {
+    "id": 50,
+    "question": "50. Podaj zasadę bootstrap",
+    "answer": "Metoda numeryczna zwana 'resamplingiem ze zwracaniem'. Z pierwotnej próby N elementów losuje się (ze zwracaniem) wiele nowych prób N-elementowych. Pozwala to na nieparametryczne oszacowanie rozkładu statystyki i wyznaczenie np. błędu standardowego, bez znajomości rozkładu populacji.",
+    "questionImage": "",
+    "answerImage": ""
+  }
+]
