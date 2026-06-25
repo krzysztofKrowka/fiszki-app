@@ -219,7 +219,6 @@
     "question": "Dla permutacji σ = (1 2 3 4 5 6 7 8 \\ 2 6 1 3 7 5 8 4) zachodzi orb_σ(3) = {4, 6, 8, 1, 2, 3, 7, 5}.",
     "answer": true
   },
-
   {
     "id": 45,
     "question": "Liczba Stirlinga II rodzaju: {6, 3} = 91.",
@@ -319,5 +318,235 @@
     "id": 64,
     "question": "Jeśli w zbiorze liniowo uporządkowanym każdy element posiada następnik, to zbiór ten jest dobrze uporządkowany.",
     "answer": false
+  },
+  {
+    "id": 65,
+    "question": "Relacja słabej mniejszości arytmetycznej (<=) dobrze porządkuje zbiór liczb naturalnych.",
+    "answer": true
+  },
+  {
+    "id": 67,
+    "question": "Zakładamy, że ψ jest tautologią, φ₁,...,φₙ złożonymi zdaniami logicznymi, n ≥ 2. Zdanie φ₁ ⇒ (φ₂ ⇒ (... ⇒ (φₙ ⇒ ψ)...)) jest fałszywe, jeśli parzysta liczba zdań φᵢ jest fałszywa.",
+    "answer": false
+  },
+  {
+    "id": 68,
+    "question": "Niech X będzie zbiorem mającym co najmniej trzy elementy. Liniowy porządek (X,⪯) nazywamy gęstym, jeśli ∀x,y∈X, x≺y ∃z∈X: x≺z≺y. Wtedy X może mieć element najmniejszy.",
+    "answer": true
+  },
+  {
+    "id": 69,
+    "question": "f: X → Y oraz A₁,A₂ ⊂ X. Jeśli f jest bijekcją, to f*(A₁∖A₂) = f*(A₁)∖f*(A₂), gdzie f*(A) oznacza obraz.",
+    "answer": true
+  },
+  {
+    "id": 70,
+    "question": "Liczba Stirlinga 2. rodzaju: {5,3} = 91. (Przypomnienie: {n,k} = liczba podziałów zbioru n-elementowego na k niepustych podzbiorów)",
+    "answer": false
+  },
+  {
+    "id": 71,
+    "question": "Liczba Stirlinga 1. rodzaju: [4,3] = 36. (Przypomnienie: [n,k] = liczba permutacji n-elementowych zawierających dokładnie k cykli)",
+    "answer": false
+  },
+  {
+    "id": 72,
+    "question": "Zachodzi równość: [n/(n−1), n/(n−1)] · (−1)ⁿ = {n/(n−1), n/(n−1)}. Czyli: [n, n] = {n, n} (obie liczby Stirlinga stopnia n,n są równe 1)",
+    "answer": true
+  },
+  {
+    "id": 73,
+    "question": "Każda permutacja może być w sposób jednoznaczny rozłożona na cykle rozłączne o ustalonej z góry długości.",
+    "answer": false
+  },
+  {
+    "id": 74,
+    "question": "Każda permutacja może być w sposób jednoznaczny rozłożona na cykle rozłączne.",
+    "answer": true
+  },
+  {
+    "id": 75,
+    "question": "Każda permutacja może być w sposób jednoznaczny rozłożona na niekoniecznie rozłączne transpozycje.",
+    "answer": false
+  },
+  {
+    "id": 76,
+    "question": "Przestrzeń wektorowa (ℤ₅³, ℤ₅) składa się ze 125 wektorów.",
+    "answer": true
+  },
+  {
+    "id": 77,
+    "question": "Przestrzeń wektorowa (ℤ₅³, ℤ₅) jest pięciowymiarowa.",
+    "answer": false
+  },
+  {
+    "id": 78,
+    "question": "Przestrzeń wektorowa (ℤ₅³, ℤ₅) jest izomorficzna z przestrzenią wektorową (ℤ₃⁵, ℤ₃).",
+    "answer": false
+  },
+  {
+    "id": 79,
+    "question": "Liczba chromatyczna grafu to minimalna liczba kolorów do pokolorowania wierzchołków tak, aby żadne dwa sąsiednie nie były tego samego koloru. Graf czworościanu foremnego (wierzchołki i krawędzie) ma liczbę chromatyczną równą 3.",
+    "answer": false
+  },
+  {
+    "id": 80,
+    "question": "Liczba chromatyczna grafu to minimalna liczba kolorów do pokolorowania wierzchołków tak, aby żadne dwa sąsiednie nie były tego samego koloru. Graf sześcianu ma liczbę chromatyczną równą 2.",
+    "answer": true
+  },
+  {
+    "id": 81,
+    "question": "Liczba chromatyczna grafu to minimalna liczba kolorów do pokolorowania wierzchołków tak, aby żadne dwa sąsiednie nie były tego samego koloru. Graf ośmiościanu foremnego ma liczbę chromatyczną równą 4.",
+    "answer": false
+  },
+  {
+    "id": 82,
+    "question": "W grafie G nieskierowanym właściwym δ(G) = najniższy stopień węzła, κ(G) = spójność wierzchołkowa, λ(G) = spójność krawędziowa. Zachodzi: δ(G) ≤ λ(G)",
+    "answer": false
+  },
+  {
+    "id": 83,
+    "question": "W grafie G nieskierowanym właściwym δ(G) = najniższy stopień węzła, κ(G) = spójność wierzchołkowa, λ(G) = spójność krawędziowa. Zachodzi: κ(G) ≤ δ(G)",
+    "answer": true
+  },
+  {
+    "id": 84,
+    "question": "W grafie G nieskierowanym właściwym δ(G) = najniższy stopień węzła, κ(G) = spójność wierzchołkowa, λ(G) = spójność krawędziowa. Zachodzi: dla dowolnej dodatniej liczby naturalnej n istnieje graf G taki, że κ(G) = λ(G) = n.",
+    "answer": true
+  },
+  {
+    "id": 85,
+    "question": "Niech (P₃,∘) oznacza grupę permutacji ze składaniem, natomiast (ℤ₆,+) grupę z dodawaniem modulo 6. Powyższe grupy są izomorficzne.",
+    "answer": false
+  },
+  {
+    "id": 86,
+    "question": "Niech (P₃,∘) oznacza grupę permutacji ze składaniem, natomiast (ℤ₆,+) grupę z dodawaniem modulo 6. Grupy (ℤ₆,+) i (ℤ,+) są homomorficzne.",
+    "answer": true
+  },
+  {
+    "id": 87,
+    "question": "Niech (P₃,∘) oznacza grupę permutacji ze składaniem, natomiast (ℤ₆,+) grupę z dodawaniem modulo 6. Grupa (P₃,∘) jest izomorficzna z grupą symetrii sześciokąta foremnego.",
+    "answer": false
+  },
+  {
+    "id": 88,
+    "question": "Oceń prawdziwość następujących równoważności logicznych: (∃x(φ(x) ∨ ψ(x))) ⟺ (∃xφ(x) ∨ ∃xψ(x))",
+    "answer": true
+  },
+  {
+    "id": 89,
+    "question": "Oceń prawdziwość następujących równoważności logicznych: (∀x:φ(x) ψ(x)) ⟹ (∀x:(φ(x) ∧ ψ(x)))",
+    "answer": true
+  },
+  {
+    "id": 90,
+    "question": "Oceń prawdziwość następujących równoważności logicznych: (∀x∃yφ(x,y)) ⟹ (∃y∀x(φ(x,y)))",
+    "answer": false
+  },
+  {
+    "id": 91,
+    "question": "Każdy zbiór częściowo uporządkowany jest izomorficzny z pewną rodziną zbiorów uporządkowanych przez inkluzję.",
+    "answer": true
+  },
+  {
+    "id": 92,
+    "question": "Każdy zbiór częściowo uporządkowany jest izomorficzny z pewną skończoną rodziną liczb całkowitych uporządkowanych przez relację podzielności.",
+    "answer": false
+  },
+  {
+    "id": 93,
+    "question": "Twierdzenie o faktoryzacji mówi, że każda funkcja może być przedstawiona jako złożenie surjekcji i bijekcji.",
+    "answer": false
+  },
+  {
+    "id": 94,
+    "question": "Twierdzenie o faktoryzacji mówi, że podział zbioru generuje relację równoważności.",
+    "answer": true
+  },
+  {
+    "id": 95,
+    "question": "Twierdzenie o faktoryzacji mówi, że do każdej bijekcji istnieje funkcja odwrotna.",
+    "answer": true
+  },
+  {
+    "id": 96,
+    "question": "Oceń prawdziwość praw de Morgana dla kwantyfikatorów: ¬(∀xφ(x)) ⟺ ∃x¬φ(x)",
+    "answer": true
+  },
+  {
+    "id": 97,
+    "question": "Oceń prawdziwość praw de Morgana dla kwantyfikatorów: ¬(∃xφ(x)) ⟺ ∃x¬φ(x)",
+    "answer": false
+  },
+  {
+    "id": 98,
+    "question": "Oceń prawdziwość praw de Morgana dla kwantyfikatorów: ∀x∀yφ(x,y) ⟺ ∀y∀xφ(x,y)",
+    "answer": true
+  },
+  {
+    "id": 99,
+    "question": "G jest grafem nieskierowanym właściwym. Graf dwudzielny G₃,₃ jest planarny.",
+    "answer": false
+  },
+  {
+    "id": 100,
+    "question": "G jest grafem nieskierowanym właściwym. Graf pełny G₄ jest planarny.",
+    "answer": true
+  },
+  {
+    "id": 101,
+    "question": "G jest grafem nieskierowanym właściwym. Graf pełny G₅ jest planarny.",
+    "answer": false
+  },
+  {
+    "id": 102,
+    "question": "Zbiór {x ∈ {0,1,2,...} : x² + 4x + 4 ≤ 0} jest skończony.",
+    "answer": true
+  },
+  {
+    "id": 103,
+    "question": "Zbiór {x ∈ {0,1,2,...} : x² + 4x + 4 ≤ 0} jest pusty.",
+    "answer": true
+  },
+  {
+    "id": 104,
+    "question": "Niech X będzie zbiorem mającym co najmniej trzy elementy. Liniowy porządek (X,⪯) nazywamy gęstym, jeśli ∀x,y∈X, x≺y ∃z∈X: x≺z≺y. Wtedy zbiór X musi być nieprzeliczalny.",
+    "answer": false
+  },
+  {
+    "id": 105,
+    "question": "Niech X będzie zbiorem mającym co najmniej trzy elementy. Liniowy porządek (X,⪯) nazywamy gęstym, jeśli ∀x,y∈X, x≺y ∃z∈X: x≺z≺y. Wtedy zbiór X musi mieć element najmniejszy.",
+    "answer": false
+  },
+  {
+    "id": 106,
+    "question": "Niech X = liczby całkowite dodatnie, Y = odwrotności liczb całkowitych dodatnich parzystych. Porządki (X,≤) i (Y,≥) (≤ = arytm. mniejsze lub równe, ≥ = arytm. większe lub równe) są homomorficzne.",
+    "answer": true
+  },
+  {
+    "id": 107,
+    "question": "Niech X = liczby całkowite dodatnie, Y = odwrotności liczb całkowitych dodatnich parzystych. Porządki (X,≤) i (Y,≥) (≤ = arytm. mniejsze lub równe, ≥ = arytm. większe lub równe) są izomorficzne.",
+    "answer": true
+  },
+  {
+    "id": 108,
+    "question": "Niech X = liczby całkowite dodatnie, Y = odwrotności liczb całkowitych dodatnich parzystych. Porządki (X,≤) i (Y,≥) (≤ = arytm. mniejsze lub równe, ≥ = arytm. większe lub równe) nie są homomorficzne.",
+    "answer": false
+  },
+  {
+    "id": 109,
+    "question": "Niech X będzie zbiorem częściowo uporządkowanym co najmniej trzyelementowym. Jeśli X jest skończony, to musi istnieć element maksymalny.",
+    "answer": true
+  },
+  {
+    "id": 110,
+    "question": "Populacja królików potraja się każdego roku. Jeśli na początku było a₀ królików, to po n latach będzie: aₙ = a₀ · 3ⁿ",
+    "answer": true
+  },
+  {
+    "id": 111,
+    "question": "Populacja królików potraja się każdego roku. Jeśli na początku było a₀ królików, to po n latach będzie: aₙ = 3aₙ₋₁",
+    "answer": true
   }
 ]
